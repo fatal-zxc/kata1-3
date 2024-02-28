@@ -32,7 +32,6 @@ body {
     margin: 0;
     width: 320px;
     box-shadow: 16px 0 52px 0 rgba(12, 24, 80, 0.2);
-    height: 100vh;
 }
 
 .nav .nav__list {
@@ -152,6 +151,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    min-height: 700px;
     height: calc(100vh - 120px);
 }
 
