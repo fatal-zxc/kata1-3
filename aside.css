@@ -147,6 +147,10 @@ body {
     margin-left: 0;
 }
 
+.lang__button:hover {
+    opacity: 0.6;
+}
+
 .wrapper {
     display: flex;
     flex-direction: column;
