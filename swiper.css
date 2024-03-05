@@ -50,7 +50,7 @@ body {
 
 .swiper-slide {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     width: 240px;
     height: 72px;
@@ -59,10 +59,14 @@ body {
     border-radius: 4%;
 }
 
+.swiper-img {
+    margin-left: 16px;
+}
+
 .swiper-button {
     width: 40px;
     height: 40px;
-    /* margin: auto 15px auto auto; */
+    margin-right: 16px;
     background: url('images/button.svg') no-repeat;
 }
 

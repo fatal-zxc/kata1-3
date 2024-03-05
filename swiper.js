@@ -1,19 +1,7 @@
-import Swiper from "./node_modules/swiper/swiper-bundle.min.mjs";
-
 let button = document.querySelector('.switch');
 let wrapper = document.querySelector('.swiper');
 let text = document.querySelector('.switch__text');
 let fl = true;
-
-function swiperInit() {
-  var swiper = new Swiper(".swiper", {
-    slidesPerView: "auto",
-    spaceBetween: 16,
-    pagination: {
-      el: ".swiper-pagination",
-    },
-  });
-}
 
 button.addEventListener('click', function () {
   if (fl === true) {
@@ -30,5 +18,11 @@ button.addEventListener('click', function () {
 
 if (window.screen.width <= 320) {
   console.log(window.screen.width);
-  swiperInit();
+  var swiper = new Swiper(".swiper", {
+    slidesPerView: "auto",
+    spaceBetween: 16,
+    pagination: {
+      el: ".swiper-pagination",
+    },
+  });
 }
